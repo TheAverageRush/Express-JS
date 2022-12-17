@@ -5,13 +5,13 @@ const port=8080;
 
 app.get("/pages", async(req,res)=>{
     try{
-        res.send("<h1>HEllow Developers </h1>")
-        console.log("Hellow Develpers ");
+        res.send("<h1>Hi everyone </h1>")
+        console.log("Hello Devs");
 
     }
     catch(error){
       
-        console.log("The error is occure is ", error)
+        console.log("The error that occured is ", error)
     }
 })
 
